@@ -7,7 +7,6 @@ var express = require("express"),
     
 app.use(express.static('public')) 
 // mongoose.connect("mongodb://salvador:gaby8321@ds143588.mlab.com:43588/pictures", {useNewUrlParser: true});
-
 mongoose.connect(process.env.DATABASEURL, {useNewUrlParser: true});
 app.use (bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
