@@ -4,7 +4,8 @@
   "description": "Yelpcamp V1",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "Salvador Silva",
   "license": "ISC",
@@ -15,6 +16,5 @@
     "express-handlebars": "^3.0.0",
     "mongoose": "^5.2.18",
     "serve-static": "^1.13.2",
-    "start": "node app.js",
-  }
+   }
 }
